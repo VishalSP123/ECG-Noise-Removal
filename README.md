@@ -1,24 +1,48 @@
-# ECG Signal Noise Removal Using Digital Filters
+# ECG Noise Removal using MATLAB
 
 ## Overview
-Simulation of ECG signal noise removal using MATLAB. Generates synthetic ECG signals, adds noise, and removes it using a Butterworth band-pass filter.
+This project demonstrates ECG signal noise removal using MATLAB.
+A synthetic ECG signal is generated, noise is added, and a Butterworth
+band-pass digital filter is applied to obtain a clean ECG signal.
+
+---
+
+## Methodology
+- ECG signal generation
+- Noise addition
+- Butterworth band-pass filtering
+- Performance analysis using plots
+
+---
+
+## Results
+
+### Original ECG Signal
+![Original ECG](Original_ECG.png)
+
+### Noisy ECG Signal
+![Noisy ECG](Noisy_ECG.png)
+
+### Filtered ECG Signal
+![Filtered ECG](Filtered_ECG.png)
+
+---
 
 ## Files
-- `ECG_Noise_Removal.m` → MATLAB script
-- `Original_ECG.png` → Original ECG plot
-- `Noisy_ECG.png` → Noisy ECG plot
-- `Filtered_ECG.png` → Filtered ECG plot
-- `Filtered_ECG_Data.csv` → Filtered ECG values (optional)
+- `ECG_Noise_Removal.m` – MATLAB script
+- `Filtered_ECG_Data.csv` – Filtered ECG values
+
+---
 
 ## How to Run
-1. Open `ECG_Noise_Removal.m` in MATLAB
-2. Run the script
-3. View plots and SNR results
+1. Open `ECG_Noise_Removal.m` in MATLAB  
+2. Run the script  
+3. Observe ECG plots and filtering results  
+
+---
 
 ## Skills Demonstrated
-- MATLAB programming
-- Signal Processing
-- Digital Filtering
-- Simulation
-
-
+- MATLAB Programming  
+- Digital Signal Processing  
+- Digital Filters (Butterworth)  
+- Biomedical Signal Processing  
